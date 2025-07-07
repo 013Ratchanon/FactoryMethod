@@ -15,7 +15,7 @@ public class GenerateBill {
 
         Plan p = planFactory.getPlan(planName);
 
-        // .
+        // .....
         if (p != null) {
             p.getRate();
             System.out.print("Bill amount for " + planName + " of " + units + " units is: ");
